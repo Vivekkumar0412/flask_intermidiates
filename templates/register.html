@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRATION PAGE</title>
+  </head>
+  <body>
+    <form action="http://127.0.0.1:5000/s" method="post">
+      <p>USERNAME : <input type="text" name="usname" /></p>
+      <p>CONTACT NO : <input type="text" name="contact_no" /></p>
+      <p>EMAIL : <input type="email" name="mail" /></p>
+      <!-- <p>IMG : <input type="file" /></p> -->
+      <p><input type="submit" /></p>
+    </form>
+    <form
+      action="http://127.0.0.1:5000/s"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="file" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
