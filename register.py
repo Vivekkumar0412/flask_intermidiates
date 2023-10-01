@@ -26,4 +26,8 @@ def succes():
 @app.route("/v",methods = ['POST'])
 def vi():
     return "just checking"
+@app.route("/login")
+def loginapp():
+    return render_template("login.html")
+
 app.run(debug = True)
